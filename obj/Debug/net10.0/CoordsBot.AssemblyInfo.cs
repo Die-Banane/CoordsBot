@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoordsBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe8f54a0d0d1289fdfbcfa30e51821987da27dd6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60c2204bc82d75aa2fc4180e5fecb4fb6474ff12")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoordsBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoordsBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
