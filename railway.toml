@@ -1,2 +1,5 @@
 [build]
-command = "dotnet restore && dotnet publish -c Release -o out"
+command = """
+dotnet restore ./CoordsBot.csproj
+dotnet publish ./CoordsBot.csproj -c Release -o out
+"""
