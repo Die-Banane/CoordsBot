@@ -1,5 +1,0 @@
-[build]
-command = """
-dotnet restore ./CoordsBot.csproj
-dotnet publish ./CoordsBot.csproj -c Release -o out
-"""
