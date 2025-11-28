@@ -53,7 +53,7 @@ class Program
         _client.SlashCommandExecuted += async command =>
         {
             string structure = String.Empty;
-            
+
             if (command.Data.Options.Any(o => o.Name == "struktur"))
                 structure = (string)command.Data.Options.First(o => o.Name == "struktur").Value;
             
@@ -103,6 +103,9 @@ class Program
 
                 case "list-coords":
                     string response = String.Empty;
+
+                    if (_coords.Count == 0)
+                        await command.RespondAsync("es wurden noch keine Koordinaten regristriert, wenn du Koordinaten regristrieren möchtest nutze /add-coords");
 
                     foreach (var coord in _coords)
                     {
