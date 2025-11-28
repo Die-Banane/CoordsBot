@@ -52,7 +52,10 @@ class Program
         
         _client.SlashCommandExecuted += async command =>
         {
-            string structure = (string)command.Data.Options.First(o => o.Name == "struktur").Value;
+            string structure = String.Empty;
+            
+            if (command.Data.Options.Any(o => o.Name == "struktur"))
+                structure = (string)command.Data.Options.First(o => o.Name == "struktur").Value;
             
             switch (command.Data.Name)
             {
