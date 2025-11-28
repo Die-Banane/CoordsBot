@@ -12,7 +12,7 @@ class Program
 
     private static Dictionary<string, Coords> _coords = null!;
     
-    private static bool _isInitialized;
+    //private static bool _isInitialized;
 
     // private static async Task InitializeCommands()
     // {
