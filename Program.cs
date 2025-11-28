@@ -84,7 +84,7 @@ class Program
                     {
                         _coords.TryGetValue(structure, out var coords);
 
-                        await command.RespondAsync($"X: {coords.X}, Y: {coords.Y}, Z: {coords.Z}");
+                        await command.RespondAsync($"{structure}: X: {coords.X}, Y: {coords.Y}, Z: {coords.Z}");
                     }
                     else
                     {
